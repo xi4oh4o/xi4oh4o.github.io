@@ -1,0 +1,250 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"> 
+
+<HTML> 
+
+<HEAD> 
+
+<TITLE>緊急逃離程式</TITLE>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<META NAME="Generator" CONTENT="EditPlus4PHP"> 
+
+<META NAME="Author" CONTENT="xi4oh4o@gmail.com"> 
+
+<META NAME="Keywords" CONTENT="郑州凉宫春日的消失、郑州凉宫春の消失、凉宫春日的消失剧场版、郑州凉宫春日的消失电影、郑州凉宫春日剧场版、郑州宅通饭、郑州宅通饭·放映组、郑州宅通饭放映、宅通饭"> 
+
+<META NAME="Description" CONTENT="郑州凉宫春日的消失鉴赏会公式HP，郑州凉宫春日的消失剧场版放映公式"> 
+
+<style type="text/css"> 
+
+body{margin:16px;font: 16px; background-color:#000; color:#fff}
+
+</style> 
+
+<script type="text/javascript"> 
+
+var typer={
+
+        container : null,
+
+                        speed : 100 ,
+
+                            innerHTML : null ,
+
+                                curpos : 0,
+
+                                    interval1 : null,
+
+                                        interval2 : null,
+
+                                            init : function(obj,speed){
+
+                                                        typer.container = obj;
+
+                                                                if(speed)typer.speed = speed;
+
+                                                                        typer.start();
+
+                                                                            },
+
+                                                start : function(){
+
+                                                                    typer.innerHTML = clearSpace(typer.container.innerHTML).toLowerCase();
+
+                                                                     
+
+                                                                            typer.container.innerHTML = "";
+
+                                                                                    typer.interval1 = setInterval("typer.type()",typer.speed);
+
+                                                                                        },
+
+                                                            type : function(){
+
+                                                                            if(typer.curpos<typer.innerHTML.length){
+
+                                                                                            if(typer.container.innerHTML.substring(typer.container.innerHTML.length-1)!="_"){
+
+                                                                                                                typer.container.innerHTML +="_";
+
+                                                                                                                 
+
+                                                                                                                            }else{
+
+                                                                                                                                                var tempStr = "";
+
+                                                                                                                                                                if(typer.innerHTML.length>=typer.curpos+4){
+
+                                                                                                                                                                                        if(typer.innerHTML.substring(typer.curpos,typer.curpos+4)=="</p>") {
+
+                                                                                                                                                                                                                    tempStr="</p>";
+
+                                                                                                                                                                                                                                            typer.curpos = typer.curpos+4;
+
+                                                                                                                                                                                                                                                                }else if(typer.innerHTML.substring(typer.curpos,typer.curpos+4)=="<br>"){
+
+                                                                                                                                                                                                                                                                                            tempStr="<br>";
+
+                                                                                                                                                                                                                                                                                                                    typer.curpos = typer.curpos+4;
+
+                                                                                                                                                                                                                                                                                                                                        }else{
+
+                                                                                                                                                                                                                                                                                                                                                                    if(typer.innerHTML.length>=typer.curpos+3 && typer.innerHTML.substring(typer.curpos,typer.curpos+3)=="<p>"){
+
+                                                                                                                                                                                                                                                                                                                                                                                                    tempStr="<p>";
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                typer.curpos = typer.curpos+3;
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        }else{
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        tempStr=typer.innerHTML.substring(typer.curpos,typer.curpos+1);
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    typer.curpos++;
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                        }else if(typer.innerHTML.length>=typer.curpos+3){
+
+                                                                                                                                                                                                                                if(typer.innerHTML.substring(typer.curpos,typer.curpos+3)=="<p>"){
+
+                                                                                                                                                                                                                                                            tempStr="<p>";
+
+                                                                                                                                                                                                                                                                                    typer.curpos = typer.curpos+3;
+
+                                                                                                                                                                                                                                                                                                        }else{
+
+                                                                                                                                                                                                                                                                                                                                    tempStr=typer.innerHTML.substring(typer.curpos,typer.curpos+1);
+
+                                                                                                                                                                                                                                                                                                                                                            typer.curpos++; 
+
+                                                                                                                                                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                }else{
+
+                                                                                                                                                                                                                                                                            tempStr=typer.innerHTML.substring(typer.curpos,typer.curpos+1);
+
+                                                                                                                                                                                                                                                                                                    typer.curpos++;     
+
+                                                                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                typer.container.innerHTML = typer.container.innerHTML.substring(0,typer.container.innerHTML.length-1)+tempStr;      
+
+                                                                                                                                                                                            }
+
+                                                                                                    }else{
+
+                                                                                                                    clearInterval(typer.interval1);
+
+                                                                                                                                typer.interval2 = setInterval("typer.last()",typer.speed);
+
+                                                                                                                                        }
+
+                                                                                },
+
+                                                                    last : function(){
+
+                                                                                    if(typer.container.innerHTML.substring(typer.container.innerHTML.length-1)!="_")
+
+                                                                                                    typer.container.innerHTML +="_";
+
+                                                                                            else
+
+                                                                                                            typer.container.innerHTML = typer.container.innerHTML.substring(0,typer.container.innerHTML.length-1);
+
+                                                                                                }
+
+                     
+
+}
+
+ 
+
+function clearSpace(str){
+
+        if(str!=""){
+
+                    str = str.replace(/^\s*/g,"").replace(/\s*$/g,"");
+
+                        }
+
+            return str;
+
+}
+
+</script> 
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></HEAD> 
+
+ 
+
+<BODY onLoad="typer.init(document.getElementById('view'))"> 
+
+<div id="view" style="font:16px; background-color:#000; color:#fff"><br> 
+
+ＩＳＡＭＵ.Ｈ＞ 當你看到這排文字時，我們的放映應該已經結束了吧。 
+
+<br> 
+
+<br> 
+
+ＩＳＡＭＵ.Ｈ＞ 雖然在開頭的放映中因為長門提前出現了一些情緒波動結果導致出現時間斷層，讓整個畫面真的消失掉了！
+
+<br> 
+
+<br> 
+
+ＩＳＡＭＵ.Ｈ＞ 但好在我們在春日主義的引導下，與朝比奈學姐順利的修復了時間的異常
+
+<br> 
+
+<br> 
+
+ＩＳＡＭＵ.Ｈ＞ 因此真的非常感謝大家能夠耐心的等待，也許我們當時已經被學姐穿越到另一個次元也說不定了呢XD<br> 
+
+再次非常感謝大家的支持與理解<br> 
+
+<br> 
+
+ＩＳＡＭＵ.Ｈ＞ 希望我們下次再見！ by xh!</div> 
+
+ 
+
+<script language=javascript>   
+
+document.onkeydown=nextpage   
+
+ 
+
+var bookpage="http://imoe.us" 
+
+var delpage="http://imoe.us" 
+
+function nextpage(event)    
+
+{   
+
+        event = event ? event : (window.event ? window.event : null);    
+
+          
+
+            if (event.keyCode==13) location=bookpage;
+
+                if (event.keyCode<=12) location=delpage;
+
+                    if (event.keyCode>=14) location=delpage;     
+
+                        //同?按下??多个?的事件情况   
+
+}   
+
+  
+
+</script> 
+
+</BODY> 
+
+</HTML>

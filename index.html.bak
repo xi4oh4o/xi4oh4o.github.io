@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh" lang="zh" dir="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="generator" content="EditPlus" />
+    <meta name="keywords" content="X&H Space-time authority" />
+    <meta name="description" content="X&H Space-time authority" />
+    <meta name="author" content="xi4oh4o@gmail.com" />
+    <meta name="Robots" content= "all" />
+<style type="text/css">
+body{
+    background:#181818 none no-repeat;
+    width:960px;
+    margin:auto;
+    text-align:center;
+}
+
+a{
+    text-decoration:none;
+    color:#3F73FF;
+}
+a#ebs{
+color:#5C5B5B;
+}
+
+div#center{
+    margin-top:20%;
+    font:11px "Microsoft Yahei",Verdana,sans-serif;
+    color:#5C5B5B;
+}
+
+div.ebs a{
+    margin:5px;
+}
+
+p.border{
+    border-top: 1px solid #252525;
+    border-bottom: 1px solid #252525;
+    width:170px;
+    margin:auto;
+}
+
+div#email{
+    font:11px "Microsoft Yahei",Verdana,sans-serif;
+    color:#5C5B5B;
+}
+
+div#footer{
+    font:11px "Microsoft Yahei",Verdana,sans-serif;
+    color:#5C5B5B;
+}
+
+</style>
+<!--
+    <script type="text/javascript" src="js/common.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+-->
+    <title>X&H Space-time authority|X&H时空管理局</title>
+</head>
+<body>
+<div id="center"><img src="poweredby.png" alt="X&H Space-time authority" />
+<h3>Attached to the project</h3>
+<a href="project" id="ebs"><p class="border">Etude Broadcast System</p></a>
+<div class="ebs">
+<span>Hosted on:</span>
+<a href="https://github.com/xi4oh4o/etude-broadcast">Github</a>
+<a href="http://gitorious.org/etude-broadcast">Gitorious</a>
+</div>
+</div>
+<br />
+<div id="email">
+Secretary-mail<br />xi4oh4o+secretary@gmail.com
+</div>
+<div id="footer">
+<br /><br />
+© 2011 X&H Space-time authority Inc. All rights reserved.
+</div>
+</body>
+</html>

@@ -1,0 +1,228 @@
+body {
+	
+    -webkit-font-size-adjust:none; /* webkit kernel browser font size fix */
+	background: url(carbon_fibre_bg.gif);
+}
+
+/* Global Style */
+
+a {
+    color:Gray;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#555;
+    text-decoration:none;
+}
+
+img.avatar {
+    border:1px solid #CCC;
+    padding:2px;
+    margin:10px 0 0 10px;
+    box-shadow: 3px 3px 3px #CCC;
+}
+
+img.avatar:hover {
+   /* border:1px solid #00B4B4; */
+    border:1px solid #CCC;
+    padding:2px;
+    box-shadow:none;
+}
+
+.font_style {
+    font: 11px "Microsoft Yahei",Verdana,Arial,sans-serif;
+    color:gray;
+}
+
+hr {
+    color:#ccc;
+}
+
+div#container{
+
+    min-height: 400px;
+}
+
+img {
+    border:none;
+}
+
+/* Global Style End */
+
+
+div#wrapper {
+    margin:auto;
+	width:960px;
+}
+
+/* User Card Style */
+div#id_card {
+    margin:auto;
+    margin-top:80px;
+    width:360px;
+    height:170px;
+    background: no-repeat #FFF none;
+    border-radius: 8px;
+	box-shadow: 6px 6px 13px #000;
+    text-shadow: 0 -1px #0A0A0A;
+}
+
+div#id_card:hover {
+    -moz-box-shadow: 0 0 38px #2C73EF;
+	-webkit-box-shadow:0 0 38px #2C73EF;
+	box-shadow: 0 0 38px #2C73EF;
+}
+
+div#id_card {
+    padding:10px;
+}
+
+div#user_name {
+    float:right;
+    
+}
+
+div#user_name hr {
+    width:258px;
+}
+
+div#user_name {
+    margin-top:20px;
+}
+
+div#user_name p{
+    margin-bottom:-6px;
+}
+
+div#user_more p {
+    margin-top:18px;
+    margin-bottom:-4px;
+    margin-left:4px;
+}
+
+div#poweredby {
+    padding-top:5px;
+}
+
+div#user_more.font_style img#spoweredby {
+    float:right;
+    margin-top:6px;
+    margin-right:-7px;
+}/* User Card Style End */
+
+/* User Divider Location */
+div#divider .user_location {
+    margin:40px 5px;
+    width:310px;
+    float:left;
+    min-height: 144px;
+}
+
+div#divider p {
+    font:20px "Microsoft Yahei",Verdana,Arial,sans-serif;
+    color:#555;
+    margin:0px;
+    padding:5px;
+    text-align:center;
+    text-shadow: 0 -1px #0A0A0A;
+}
+
+div#divider ul{
+    margin-top:0px;
+    font:11px "Microsoft Yahei",Verdana,Arial,snas-serif;
+    text-shadow: 0 -1px #0A0A0A;
+}
+
+/* User Divider Location End*/
+
+/* User Social Style */
+div#user_social {
+    background: no-repeat #FFF none;
+    border-radius:8px;
+    color:#3E9EE8;
+    box-shadow: -8px 8px 13px #000;
+}
+
+/* User Social Style End */
+
+/* User Contact Style */
+div#user_contact {
+    background: no-repeat #FFF none;
+    border-radius:8px;
+    color:#3E9EE8;
+    box-shadow: 0px 8px 13px #000;
+}
+/* User Contact Style End */
+
+/* User Work&Mission Style */
+div#user_work {
+    background: no-repeat #FFF none;
+    border-radius:8px;
+    color:#3E9EE8;
+    box-shadow: 8px 8px 13px #000;
+}
+
+/* User Work&Mission Style End */
+
+/* Design Style */
+div#design {
+    background: no-repeat #FFF none;
+    border-radius:3px;
+    width:100px;
+    text-align:center;
+    margin:auto;
+    margin-bottom:40px;
+    box-shadow: 0 0 13px #2C73EF;
+}
+
+div#design:hover {
+    box-shadow: 0 0 38px #2C73EF;
+}
+
+div#design p {
+    font: bold 12px "Microsoft Yahei",Verdana,Arial,sans-serif;
+    padding:2px;
+    color:gray;
+    text-align:center;
+    text-shadow: 0 -1px #0A0A0A;
+}
+
+/* Design Style End */
+
+/* Footer Style */
+
+div#footer {
+    background: no-repeat #FFF none;
+    width:360px;
+    border-radius:6px;
+    color:#3E9EE8;
+    text-align:center;
+    margin:auto;
+    box-shadow: 0 5px 13px #000;
+    
+}
+
+div#validator {
+    font:9px "Microsoft Yahei",Verdana,Arial,sans-serif;
+    color:#555;
+    padding-bottom:5px;
+
+}
+
+/* Footer Style End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
