@@ -1,0 +1,29 @@
+@charset 'utf-8';
+/* designer by Howe */
+
+/* Global Style */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+img {
+	text-decoration: none;
+	border: none;
+}
+
+body{
+	background: #ccc url( ../images/ravenna.png ) repeat fixed;
+}
+
+div#wrapper p {
+	font: 9px "Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #888;
+	text-align:center;
+	margin-top: 25%;
+}
