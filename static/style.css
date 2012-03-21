@@ -10,6 +10,7 @@
 a {
 	text-decoration: none;
 	outline: none;
+	font: 9px "Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -21,9 +22,22 @@ body{
 	background: #ccc url( ../images/ravenna.png ) repeat fixed;
 }
 
+div#wrapper {
+	background: #fff;
+	height: 100px;
+	box-shadow: 0 0 10px 0 #CCCCCC;
+	margin-top: 20%;
+	text-align:center;
+}
+
 div#wrapper p {
-	font: 9px "Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font: bold 19px Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
 	color: #888;
 	text-align:center;
-	margin-top: 25%;
+	padding: 33px;
+
+}
+
+div#wrapper a {
+	color: #888;
 }
