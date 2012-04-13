@@ -19,25 +19,24 @@ img {
 }
 
 body{
-	background: #ccc url( ../images/ravenna.png ) repeat fixed;
+	background: #fff repeat fixed;
+	/*url(http://subtlepatterns.com/patterns/fabric_plaid.png)*/
 }
 
 div#wrapper {
-	background: #fff;
 	height: 100px;
-	box-shadow: 0 0 10px 0 #CCCCCC;
+	/*box-shadow: 0 0 10px 0 #CCCCCC;*/
 	margin-top: 20%;
 	text-align:center;
 }
 
 div#wrapper p {
-	font: bold 19px Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
-	color: #888;
-	text-align:center;
-	padding: 33px;
-
+	padding-top: 10px;
+	font: bold 18px 'Bilbo',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
 
-div#wrapper a {
-	color: #888;
+div#wrapper p a{
+	font: bold 48px 'Fredericka the Great','Mr De Haviland',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #000;
+	text-align:center;
 }
