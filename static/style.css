@@ -1,42 +1,97 @@
 @charset 'utf-8';
 /* designer by Howe */
 
-/* Global Style */
+/* Global Style 
+---------------------------------*/
 * {
 	margin: 0;
 	padding: 0;
 }
 
+body{
+	background: whiteSmoke repeat fixed;
+	/*url(http://subtlepatterns.com/patterns/fabric_plaid.png)*/
+}
+
 a {
 	text-decoration: none;
 	outline: none;
+	color: #000;
 	font: 9px "Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
 
 img {
 	text-decoration: none;
 	border: none;
+	border-radius: 6px;
 }
 
-body{
+.box {
 	background: #fff repeat fixed;
-	/*url(http://subtlepatterns.com/patterns/fabric_plaid.png)*/
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+	border-radius: 3px;
 }
 
-div#wrapper {
-	height: 100px;
-	/*box-shadow: 0 0 10px 0 #CCCCCC;*/
-	margin-top: 20%;
+/* container
+-------------------------------------*/
+#container {
+	position: relative;
+	margin: 0px auto 100px;
 	text-align:center;
+	width:768px;
 }
 
-div#wrapper p {
-	padding-top: 10px;
+#header {
+	border-radius: 0px 0px 3px 3px;
+	box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.35);
+}
+
+#header p {
 	font: bold 18px 'Bilbo',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
 
-div#wrapper p a{
+#header p:nth-last-child(1) {
+	padding-bottom:5px;
+}
+
+#header p a{
 	font: bold 48px 'Fredericka the Great','Mr De Haviland',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+/* divider */
+
+#divider {
+	margin-top: 30px;
+}
+
+#card_left {
+	width: 381px;
+}
+
+#card_right {
+	float:right;
+	width: 381px;
+}
+
+
+/* Mobile ver. 
+--------------------------------*/
+@media screen and (max-width:480px) {
+	#header {
+		width: 260px;
+		box-shadow: 1px 1px 40px 1px #000;
+	}
+
+	#header p {
+		font: bold 18px 'Bilbo',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
+	}
+
+	#header p:nth-last-child(1) {
+	padding-bottom:5px;
+}
+
+#header p a{
+	font: bold 38px 'Fredericka the Great','Mr De Haviland',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
 	color: #000;
 	text-align:center;
 }
