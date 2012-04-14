@@ -11,6 +11,7 @@
 body{
 	background: whiteSmoke repeat fixed;
 	/*url(http://subtlepatterns.com/patterns/fabric_plaid.png)*/
+	font-family: "Helvetica Neue","Luxi Sans","DejaVu Sans",Tahoma,"Hiragino Sans GB",STHeiti !important;
 }
 
 a {
@@ -23,7 +24,7 @@ a {
 img {
 	text-decoration: none;
 	border: none;
-	border-radius: 6px;
+	border-radius: 3px;
 }
 
 .box {
@@ -65,19 +66,48 @@ img {
 }
 
 #card_left {
-	padding: 10px;
-	width: 381px;
+	width: 373px;
 }
 
-#card_left img {
-	border-radius: 3px;
+.xi4oh4o {
+	padding: 8px;
+	border-bottom: 1px solid #E2E2E2;
+	height: 68px;
+}
+
+.username {
+	color: #778087;
+}
+
+.hitokoto {
+	color: #999999;
+	font-size: 12px;
+}
+
+#about_me {
+	padding:8px;
+	font-size: 12px;
 }
 
 #card_right {
 	float:right;
-	width: 381px;
+	width: 373px;
+	height: 227px;
 }
 
+#office_since td{
+text-align: center;
+font-size: 9px;
+}
+
+#office_since td img {
+	margin-left: 26px;
+	margin-top: 23px;
+}
+
+td.old_times {
+	padding-top:23px; 
+}
 
 /* Mobile ver. 
 --------------------------------*/
@@ -99,4 +129,5 @@ img {
 	font: bold 38px 'Fredericka the Great','Mr De Haviland',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
 	color: #000;
 	text-align:center;
+}
 }
