@@ -37,7 +37,6 @@ img {
 #container {
 	position: relative;
 	margin: 0px auto 100px;
-	text-align:center;
 	width:768px;
 }
 
@@ -47,6 +46,7 @@ img {
 }
 
 #header p {
+	text-align: center;
 	font: bold 18px 'Bilbo',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
 
@@ -65,7 +65,12 @@ img {
 }
 
 #card_left {
+	padding: 10px;
 	width: 381px;
+}
+
+#card_left img {
+	border-radius: 3px;
 }
 
 #card_right {
