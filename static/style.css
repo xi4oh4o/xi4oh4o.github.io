@@ -11,7 +11,7 @@
 body{
 	background: whiteSmoke repeat fixed;
 	/*url(http://subtlepatterns.com/patterns/fabric_plaid.png)*/
-	font-family: "Helvetica Neue","Luxi Sans","DejaVu Sans",Tahoma,"Hiragino Sans GB",STHeiti !important;
+	font-family: "Helvetica Neue","Luxi Sans","DejaVu Sans",Verdana,"Microsoft Yahei",Tahoma,"Hiragino Sans GB",STHeiti !important;
 }
 
 a {
@@ -97,7 +97,6 @@ img {
 
 #office_since td{
 text-align: center;
-font-size: 9px;
 }
 
 #office_since td img {
@@ -106,7 +105,8 @@ font-size: 9px;
 }
 
 td.old_times {
-	padding-top:23px; 
+	padding-top:23px;
+	font-size: 11px;
 }
 
 /* Mobile ver. 
