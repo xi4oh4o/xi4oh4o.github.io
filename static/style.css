@@ -70,8 +70,10 @@ img {
 
 }
 
+
 #color_bar td{
 	height: 4px;
+	width: 1px;
 }
 
 #color_bar td:nth-child(1) {
