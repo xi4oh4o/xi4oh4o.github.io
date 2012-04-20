@@ -66,11 +66,42 @@ img {
 }
 
 #card_left {
-	width: 373px;
+	width: 377px;
+
+}
+
+#color_bar td{
+	height: 4px;
+}
+
+#color_bar td:nth-child(1) {
+	background: #E16B8C repeat fixed;
+	border-radius:3px 0px 0px 0px;
+}
+
+#color_bar td:nth-child(2) {
+	background: #66BAB7 repeat fixed;
+}
+
+#color_bar td:nth-child(3) {
+	background: #E8B647 repeat fixed;
+}
+
+#color_bar td:nth-child(4) {
+	background: #B481BB repeat fixed;
+}
+
+#color_bar td:nth-child(5) {
+	background: #81C7D4 repeat fixed;
+}
+
+#color_bar td:nth-child(6) {
+	background: #D9CD90 repeat fixed;
+	border-radius:0px 3px 0px 0px;
 }
 
 .xi4oh4o {
-	padding: 8px;
+	padding: 6px;
 	border-bottom: 1px solid #E2E2E2;
 	height: 68px;
 }
@@ -91,12 +122,12 @@ img {
 
 #card_right {
 	float:right;
-	width: 373px;
+	width: 377px;
 	height: 227px;
 }
 
 #office_since td{
-text-align: center;
+	text-align: center;
 }
 
 #office_since td img {
@@ -104,10 +135,29 @@ text-align: center;
 	margin-top: 23px;
 }
 
-td.old_times {
+.old_times {
 	padding-top:23px;
 	font-size: 11px;
 }
+
+#Links {
+	margin-top: 13px;
+
+}
+
+#Links h4 {
+	font: bold 16px Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #888;
+	border-bottom: 1px solid #E2E2E2;
+	padding: 8px;
+}
+
+#Links li{
+	list-style-type: none;
+	padding-left: 8px;
+}
+
+
 
 /* Mobile ver. 
 --------------------------------*/
