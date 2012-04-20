@@ -134,7 +134,7 @@ img {
 	height: 28px;
 	position: absolute;
 	right: 180px;
-	top: 126px;
+	top: 123px;
 }
 
 #office_since td{
@@ -143,7 +143,9 @@ img {
 
 #office_since td img {
 	margin-left: 26px;
-	margin-top: 23px;
+	margin-top: 18px;
+	border: #FFF 6px solid;
+	box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.20);
 }
 
 .old_times {
