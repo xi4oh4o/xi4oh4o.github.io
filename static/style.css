@@ -18,7 +18,6 @@ a {
 	text-decoration: none;
 	outline: none;
 	color: #000;
-	font: 9px "Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -57,6 +56,7 @@ img {
 
 #header p a{
 	font: bold 48px 'Fredericka the Great','Mr De Haviland',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #000;
 }
 
 /* divider */
@@ -144,8 +144,8 @@ img {
 #office_since td img {
 	margin-left: 26px;
 	margin-top: 18px;
-	border: #FFF 6px solid;
-	box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.20);
+	border: #FFF 7px solid;
+	box-shadow: 3px 4px 8px 0px rgba(0,0,0,0.20);
 }
 
 .old_times {
@@ -155,21 +155,46 @@ img {
 
 #Links {
 	margin-top: 13px;
-
+	width: 768px;
+	background-color: #FFFFFF;
 }
 
 #Links h4 {
 	font: italic 18px 'Fredericka the Great','Mr De Haviland',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
 	color: #000;
 	border-bottom: 1px solid #E2E2E2;
-	padding: 6px;
+	padding: 8px;
 }
 
 #Links li{
 	list-style-type: none;
-	padding-left: 8px;
 }
 
+li a:link, a:visited, a:active {
+    color: #1C7FDB;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.column {
+    background-color: #F7FDFF;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    float: left;
+    font-size: 16px;
+    margin: 8px;
+    padding: 6px;
+}
+
+.column_title {
+    color: #888;
+    font-size: 12px;
+    font: 18px 'Bilbo',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
 
 
 /* Mobile ver. 
