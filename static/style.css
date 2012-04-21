@@ -9,8 +9,8 @@
 }
 
 body{
+	-webkit-text-size-adjust:none;
 	background: whiteSmoke repeat fixed;
-	/*url(http://subtlepatterns.com/patterns/fabric_plaid.png)*/
 	font-family: "Helvetica Neue","Luxi Sans","DejaVu Sans",Verdana,"Microsoft Yahei",Tahoma,"Hiragino Sans GB",STHeiti !important;
 }
 
@@ -32,6 +32,16 @@ img {
 	border-radius: 3px;
 }
 
+.column {
+    background-color: #F7FDFF;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    float: left;
+    font-size: 16px;
+    margin: 8px;
+    padding: 6px;
+}
+
 /* container
 -------------------------------------*/
 #container {
@@ -48,9 +58,6 @@ img {
 #header p {
 	text-align: center;
 	font: bold 18px 'Bilbo',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
-}
-
-#header p:nth-last-child(1) {
 	padding-bottom:5px;
 }
 
@@ -67,9 +74,9 @@ img {
 
 #card_left {
 	width: 377px;
-
 }
 
+/* To achieve a rainbow bar */
 
 #color_bar td{
 	height: 4px;
@@ -102,6 +109,8 @@ img {
 	border-radius:0px 3px 0px 0px;
 }
 
+/* Avatar & About */
+
 .xi4oh4o {
 	padding: 6px;
 	border-bottom: 1px solid #E2E2E2;
@@ -121,6 +130,8 @@ img {
 	padding:8px;
 	font-size: 12px;
 }
+
+/* Photo pinup picture */
 
 #card_right {
 	float:right;
@@ -153,6 +164,8 @@ img {
 	font-size: 11px;
 }
 
+/* Links */
+
 #Links {
 	margin-top: 13px;
 	width: 768px;
@@ -161,29 +174,34 @@ img {
 
 #Links h4 {
 	font: italic 18px 'Fredericka the Great','Mr De Haviland',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
-	color: #000;
+	color: #888;
 	border-bottom: 1px solid #E2E2E2;
 	padding: 8px;
 }
 
 #Links li{
 	list-style-type: none;
+
 }
 
 li a:link, a:visited, a:active {
     color: #1C7FDB;
     text-decoration: none;
     font-size: 14px;
+    -moz-transition: text-shadow 0.2s linear 0s;
+    -webkit-transition: text-shadow 0.2s linear 0s;
+    -o-transition: text-shadow 0.2s linear 0s;
 }
 
-.column {
-    background-color: #F7FDFF;
-    border-radius: 6px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    float: left;
-    font-size: 16px;
-    margin: 8px;
-    padding: 6px;
+li a:hover {
+	text-shadow: 1px 0px 0px #97DAED;
+}
+
+#a_tips {
+	float: right;
+	font: 9px "Microsoft Yahei",cursive,Georgia,Verdana,Arial;
+	color: #ccc;
+	margin: -18px 6px 0px 0px;
 }
 
 .column_title {
