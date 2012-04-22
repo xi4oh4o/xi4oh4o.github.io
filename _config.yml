@@ -1,0 +1,5 @@
+safe: true
+source: xi4oh4o.github.com
+destination: blog
+lsi: false
+pygments: true
