@@ -201,7 +201,7 @@ img {
 }
 
 #Links li a {
-    color: #1C7FDB;
+    color: rgba(92, 92, 92, 0.56);
     text-decoration: none;
     font-size: 14px;
     -moz-transition: text-shadow 0.3s linear 0s;
