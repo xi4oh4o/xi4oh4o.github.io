@@ -26,6 +26,39 @@ img {
 	border-radius: 3px;
 }
 
+table {
+	border: none;
+	width: 100%;
+	border-collapse: collapse; 
+	border-spacing: 0;
+}
+
+/* custom size & color */
+
+.px_auto {
+	width: auto;
+}
+
+.px_w240 {
+	width: 240px;
+}
+
+.px_h68 {
+	height: 68px;
+}
+
+.px_w10 {
+	width: 10px;
+	vertical-align: top;
+}
+
+.td_font {
+	color: #888;
+	font-size: 14px;
+	list-style-type: none;
+	margin-top: 8px;
+}
+
 .box {
 	background: #fff repeat fixed;
 	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
@@ -37,7 +70,7 @@ img {
     border-radius: 6px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     float: left;
-    font-size: 16px;
+    font-size: 14px;
     margin: 8px;
     padding: 6px;
 }
@@ -183,24 +216,19 @@ img {
 	padding: 8px;
 }
 
-#Links li{
+#Links .nav li{
 	list-style-type: none;
 	color: #888;
-	font-size: 12px;
+	font-size: 14px;
 	margin-top: 8px;
 }
 
-#Links li span {
-	color: #888;
-	font-size: 14px;
-}
-
-#Links li table a{
+#Links table a{
 	color: #888;
 	font-size: 12px;
 }
 
-#Links li a {
+#Links a {
     color: rgba(92, 92, 92, 0.56);
     text-decoration: none;
     font-size: 14px;
@@ -209,8 +237,24 @@ img {
     -o-transition: text-shadow 0.3s linear 0s;
 }
 
-#Links li a:hover {
+#Links a:hover {
 	text-shadow: 1px 0px 0px #97DAED;
+}
+
+.profile {
+	margin-top: 8px;
+	width: auto;
+}
+
+.profile_title {
+	font-size: 14px;
+	color: #888;
+}
+
+.profile_inner {
+	font-size: 12px;
+	color: #888;
+	vertical-align: bottom;
 }
 
 #a_tips {
