@@ -107,6 +107,7 @@ table {
 
 #card_left {
 	width: 377px;
+	height: 227px;
 }
 
 /* To achieve a rainbow bar */
@@ -216,6 +217,10 @@ table {
 	padding: 8px;
 }
 
+.nav {
+    display: none;
+}
+
 #Links .nav li{
 	list-style-type: none;
 	color: #888;
@@ -268,6 +273,7 @@ table {
     color: #888;
     font-size: 12px;
     font: 18px 'Bilbo',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
+    cursor: pointer;
 }
 
 .clear {
