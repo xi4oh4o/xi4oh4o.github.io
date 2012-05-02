@@ -246,6 +246,12 @@ table {
 	text-shadow: 1px 0px 0px #97DAED;
 }
 
+#miku_tan {
+	position: absolute;
+	right: 1px;
+	bottom: 1px;
+}
+
 .profile {
 	margin-top: 8px;
 	width: auto;
