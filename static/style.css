@@ -249,7 +249,7 @@ table {
 #miku_tan {
 	position: absolute;
 	right: 1px;
-	bottom: 1px;
+	bottom: 46px;
 }
 
 .profile {
@@ -286,6 +286,17 @@ table {
     clear: both;
 }
 
+/* Footer */
+#footer {
+	margin-top: 13px;
+	padding: 3px;
+	text-align: center;
+}
+
+#footer span {
+	color: #cccccc;
+	font: 9px "Microsoft Yahei",cursive,Georgia,Verdana,Arial;
+}
 
 /* Mobile ver. 
 --------------------------------*/
@@ -296,6 +307,7 @@ table {
 	}
 
 	#header p {
+		color: #e2e2e2;
 		font: bold 18px 'Bilbo',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
 	}
 
