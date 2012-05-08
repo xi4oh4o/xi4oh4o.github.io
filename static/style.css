@@ -84,8 +84,8 @@ table {
 }
 
 #header {
-	border-radius: 0px 0px 4px 3px;
-	box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.15);
+	border-radius: 0px 0px 6px 6px;
+	box-shadow: 0px 0px 3px 1px #ccc;
 }
 
 #header p {
@@ -288,9 +288,13 @@ table {
 
 /* Footer */
 #footer {
-	margin-top: 13px;
+	position: fixed;
+	bottom: 0px;
+	width: 768px;
 	padding: 3px;
 	text-align: center;
+	border-radius: 6px 6px 0px 0px;
+	box-shadow: 0px 0px 3px 1px #ccc;
 }
 
 #footer span {
