@@ -79,7 +79,7 @@ table {
 -------------------------------------*/
 #container {
 	position: relative;
-	margin: 0px auto 100px;
+	margin: 0px auto 63px;
 	width:768px;
 }
 
@@ -309,8 +309,7 @@ table {
 
 /* Footer */
 #footer {
-	position: fixed;
-	bottom: 0px;
+	margin: auto;
 	width: 768px;
 	padding: 3px;
 	text-align: center;
