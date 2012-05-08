@@ -177,16 +177,25 @@ table {
 	background: url(../images/tap.png) no-repeat;
 	width: 101px;
 	height: 28px;
+}
+
+.tap_flower {
 	position: absolute;
 	right: 180px;
 	top: 123px;
 }
 
-#office_since td{
+.tap_since {
+	position: relative;
+	top: 5px;
+	left: 76px;
+}
+
+#office_flower td{
 	text-align: center;
 }
 
-#office_since td img {
+#office_flower td img {
 	margin-left: 26px;
 	margin-top: 18px;
 	border: #FFF 7px solid;
@@ -210,7 +219,7 @@ table {
 	background-color: #FFFFFF;
 }
 
-#Links h4 {
+.box h4 {
 	font: italic 18px 'Fredericka the Great','Mr De Haviland',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
 	color: #888;
 	border-bottom: 1px solid #E2E2E2;
@@ -233,7 +242,7 @@ table {
 	font-size: 12px;
 }
 
-#Links a {
+#profile a,#Links a {
     color: rgba(92, 92, 92, 0.56);
     text-decoration: none;
     font-size: 14px;
@@ -242,30 +251,8 @@ table {
     -o-transition: text-shadow 0.3s linear 0s;
 }
 
-#Links a:hover {
+#profile a:hover,#Links a:hover {
 	text-shadow: 1px 0px 0px #97DAED;
-}
-
-#miku_tan {
-	position: absolute;
-	right: 1px;
-	bottom: 46px;
-}
-
-.profile {
-	margin-top: 8px;
-	width: auto;
-}
-
-.profile_title {
-	font-size: 14px;
-	color: #888;
-}
-
-.profile_inner {
-	font-size: 12px;
-	color: #888;
-	vertical-align: bottom;
 }
 
 #a_tips {
@@ -286,6 +273,40 @@ table {
     clear: both;
 }
 
+#profile {
+	margin-top: 13px;
+	background-color: #ffffff;
+	width: 768px;
+	text-align: left;
+}
+
+.profile_font{
+	color: #888888;
+	font-size: 14px;
+}
+
+#profile a{
+	color: #888888;
+	font-size: 12px;
+}
+
+.profile {
+	padding: 8px;
+	margin-top: -19px;
+}
+
+#miku_tan {
+	float:left;
+	margin: -12px 8px 8px 8px;
+}
+
+#miku_tan img{
+	border: 7px solid #FFFFFF;
+    box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 213px;
+    height: 160px;
+}
+
 /* Footer */
 #footer {
 	position: fixed;
@@ -301,6 +322,7 @@ table {
 	color: #cccccc;
 	font: 9px "Microsoft Yahei",cursive,Georgia,Verdana,Arial;
 }
+
 
 /* Mobile ver. 
 --------------------------------*/
