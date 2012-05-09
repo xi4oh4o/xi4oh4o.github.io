@@ -310,6 +310,13 @@ table {
     height: 160px;
 }
 
+#miku_tan {
+	float:right;
+	position: relative;
+	top: 56px;
+	right: 16px;
+}
+
 /* Footer */
 #footer {
 	margin: 20px auto;
