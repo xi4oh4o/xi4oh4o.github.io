@@ -12,6 +12,7 @@ body{
 	-webkit-text-size-adjust:none;
 	background: whiteSmoke repeat fixed;
 	font-family: "Helvetica Neue","Luxi Sans","DejaVu Sans",Verdana,"Microsoft Yahei",Tahoma,"Hiragino Sans GB",STHeiti !important;
+	height:100%;
 }
 
 a {
@@ -81,6 +82,7 @@ table {
 	position: relative;
 	margin: 0px auto 63px;
 	width:768px;
+	min-height:100%;
 }
 
 #header {
@@ -278,6 +280,7 @@ table {
 	background-color: #ffffff;
 	width: 768px;
 	text-align: left;
+	padding-bottom: 20px;
 }
 
 .profile_font{
@@ -295,12 +298,12 @@ table {
 	margin-top: -19px;
 }
 
-#miku_tan {
+#office_since {
 	float:left;
 	margin: -12px 8px 8px 8px;
 }
 
-#miku_tan img{
+#office_since img{
 	border: 7px solid #FFFFFF;
     box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 213px;
@@ -309,16 +312,16 @@ table {
 
 /* Footer */
 #footer {
-	margin: auto;
-	width: 768px;
-	padding: 3px;
+	margin: 20px auto;
+	width: 758px;
+	height: 19px;
+	padding: 5px;
 	text-align: center;
-	border-radius: 6px 6px 0px 0px;
-	box-shadow: 0px 0px 3px 1px #ccc;
+	border-radius: 3px;
 }
 
 #footer span {
-	color: #cccccc;
+	color: #ccc;
 	font: 9px "Microsoft Yahei",cursive,Georgia,Verdana,Arial;
 }
 
