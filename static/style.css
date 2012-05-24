@@ -336,23 +336,74 @@ table {
 /* Mobile ver. 
 --------------------------------*/
 @media screen and (max-width:480px) {
-	#header {
-		width: 260px;
-		box-shadow: 1px 1px 40px 1px #000;
+
+body {
+		width: auto;
+}
+
+#container {
+		width: 100%;
+}
+
+.box {
+	border-radius: 0px;
+}
+
+img { max-width: 100%;}
+
+#header {
+	width: 100%;
+	border-radius: 0px;
 	}
 
-	#header p {
-		color: #e2e2e2;
-		font: bold 18px 'Bilbo',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
+#header p {
+	color: #e2e2e2;
+	font: bold 18px 'Bilbo',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
 	}
 
-	#header p:nth-last-child(1) {
+#card_left {
+	width:100%;
+	height:auto;
+}
+
+#card_right {
+	display: none;
+	}
+
+#header p:nth-last-child(1) {
 	padding-bottom:5px;
 }
 
 #header p a{
-	font: bold 38px 'Fredericka the Great','Mr De Haviland',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font: 38px 'Fredericka the Great','Mr De Haviland',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
 	color: #000;
 	text-align:center;
 }
+
+#Links {
+	width:100%;
+}
+
+#miku_tan,#office_since{
+	display: none;
+}
+
+.tap, .tap_since{
+	display: none;
+}
+
+#profile {
+	width:100%;
+}
+
+.profile {
+	margin-top: 0px;
+}
+
+#footer {
+	width:100%;
+	padding: 5px 0;
+	border-radius: 0px;
+}
+
 }
