@@ -295,7 +295,7 @@ table {
 
 .profile {
 	padding: 8px;
-	margin-top: -19px;
+	/*margin-top: -19px;*/
 }
 
 #office_since {
@@ -313,7 +313,7 @@ table {
 #miku_tan {
 	float:right;
 	position: relative;
-	top: 56px;
+	top: 130px;
 	right: 16px;
 }
 
