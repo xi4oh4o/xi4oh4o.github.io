@@ -80,7 +80,7 @@ table {
 -------------------------------------*/
 #container {
 	position: relative;
-	margin: 0px auto 63px;
+	margin: 0px auto 18px;
 	width:768px;
 	min-height:100%;
 }
@@ -330,6 +330,12 @@ table {
 #footer span {
 	color: #ccc;
 	font: 9px "Microsoft Yahei",cursive,Georgia,Verdana,Arial;
+}
+
+#cloudflare {
+	text-align: center;
+	margin: auto;
+	width: 270px;
 }
 
 
