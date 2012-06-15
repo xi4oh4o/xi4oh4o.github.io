@@ -267,6 +267,7 @@ table {
 .column_title {
     color: #888;
     font-size: 12px;
+    text-shadow: 1px 1px 2px #888;
     font: 18px 'Bilbo',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
     cursor: pointer;
 }
