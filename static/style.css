@@ -42,10 +42,12 @@ table {
 
 .px_w240 {
 	width: 240px;
+	height: 180px
 }
 
 .px_h68 {
 	height: 68px;
+	width: 68px;
 }
 
 .px_w10 {
@@ -316,6 +318,11 @@ table {
 	position: relative;
 	top: 130px;
 	right: 16px;
+}
+
+#miku_tan img {
+	width: 125px;
+	height: 128px;
 }
 
 /* Footer */
