@@ -182,6 +182,7 @@ table {
 	background: url(../images/tap.png) no-repeat;
 	width: 101px;
 	height: 28px;
+	opacity: 0.65;
 }
 
 .tap_flower {
@@ -242,6 +243,10 @@ table {
 	margin-top: 8px;
 }
 
+#Links .nav li a {
+	font: italic 15px Georgia,cursive,Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
 #Links table a{
 	color: #888;
 	font-size: 12px;
@@ -290,11 +295,13 @@ table {
 .profile_font{
 	color: #888888;
 	font-size: 14px;
+	text-shadow: 0px 0px 1px #ccc;
 }
 
 #profile a{
 	color: #888888;
 	font-size: 12px;
+	text-shadow: 0px 0px 1px #ccc;
 }
 
 .profile {
@@ -317,7 +324,7 @@ table {
 #miku_tan {
 	float:right;
 	position: relative;
-	top: 130px;
+	top: 106px;
 	right: 16px;
 }
 
