@@ -11,7 +11,7 @@
 	From: ZhengZhou, HeNan, China
 
 /* SITE */
-	Last update:2012/04/20
+	Last update:2012/10/19
 	Language:English / Chinese
 	Doctype:HTML5
 	IDE: Sublime Text 2
