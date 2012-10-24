@@ -274,9 +274,8 @@ table {
 
 .column_title {
     color: #888;
-    font-size: 12px;
-    text-shadow: 1px 1px 2px #888;
-    font: 18px 'Bilbo',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
+/*    text-shadow: 1px 1px 2px #888;*/
+    font: 16px 'Fredericka the Great',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
     cursor: pointer;
 }
 
@@ -335,9 +334,9 @@ table {
 
 /* Footer */
 #footer {
-	margin: 20px auto;
-	width: 758px;
-	height: 19px;
+/*	margin: 20px auto;*/
+/*	width: 758px;
+	height: 19px;*/
 	padding: 5px;
 	text-align: center;
 	border-radius: 3px;
@@ -345,15 +344,8 @@ table {
 
 #footer span {
 	color: #ccc;
-	font: 9px "Microsoft Yahei",cursive,Georgia,Verdana,Arial;
+	font: 13px 'giddyup-std',"Microsoft Yahei",cursive,Georgia,Verdana,Arial;
 }
-
-#cloudflare {
-	text-align: center;
-	margin: auto;
-	width: 270px;
-}
-
 
 /* Mobile ver. 
 --------------------------------*/
