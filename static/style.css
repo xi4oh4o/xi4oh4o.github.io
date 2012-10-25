@@ -4,69 +4,69 @@
 /* Global Style 
 ---------------------------------*/
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body{
-	-webkit-text-size-adjust:none;
-	-webkit-font-smoothing:antialiased;
-	background: url(../images/greyfloral.png) whiteSmoke repeat fixed;
-	font-family: "Helvetica Neue","Luxi Sans","DejaVu Sans",Verdana,"Microsoft Yahei",Tahoma,"Hiragino Sans GB",STHeiti !important;
-	height:100%;
+    -webkit-text-size-adjust:none;
+    -webkit-font-smoothing:antialiased;
+    background: url(../images/greyfloral.png) whiteSmoke repeat fixed;
+    font-family: "Helvetica Neue","Luxi Sans","DejaVu Sans",Verdana,"Microsoft Yahei",Tahoma,"Hiragino Sans GB",STHeiti !important;
+    height:100%;
 }
 
 a {
-	text-decoration: none;
-	outline: none;
-	color: #000;
+    text-decoration: none;
+    outline: none;
+    color: #000;
 }
 
 img {
-	text-decoration: none;
-	border: none;
-	border-radius: 3px;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
 }
 
 table {
-	border: none;
-	width: 100%;
-	border-collapse: collapse; 
-	border-spacing: 0;
+    border: none;
+    width: 100%;
+    border-collapse: collapse; 
+    border-spacing: 0;
 }
 
 /* custom size & color */
 
 .px_auto {
-	width: auto;
+    width: auto;
 }
 
 .px_w240 {
-	width: 240px;
-	height: 180px
+    width: 240px;
+    height: 180px
 }
 
 .px_h68 {
-	height: 68px;
-	width: 68px;
+    height: 68px;
+    width: 68px;
 }
 
 .px_w10 {
-	width: 10px;
-	vertical-align: top;
+    width: 10px;
+    vertical-align: top;
 }
 
 .td_font {
-	color: #888;
-	font-size: 14px;
-	list-style-type: none;
-	margin-top: 8px;
+    color: #888;
+    font-size: 14px;
+    list-style-type: none;
+    margin-top: 8px;
 }
 
 .box {
-	background: #fff repeat fixed;
-	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
-	border-radius: 3px;
+    background: #fff repeat fixed;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
 }
 
 .column {
@@ -82,154 +82,154 @@ table {
 /* container
 -------------------------------------*/
 #container {
-	position: relative;
-	margin: 0px auto 18px;
-	width:768px;
-	min-height:100%;
+    position: relative;
+    margin: 0px auto 18px;
+    width:768px;
+    min-height:100%;
 }
 
 #header {
-	border-radius: 0px 0px 6px 6px;
-	box-shadow: 0px 0px 3px 1px #ccc;
+    border-radius: 0px 0px 6px 6px;
+    box-shadow: 0px 0px 3px 1px #ccc;
 }
 
 #header p {
-	text-align: center;
-	font: bold 18px 'Bilbo',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
-	padding-bottom:5px;
+    text-align: center;
+    font: bold 18px 'Bilbo',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding-bottom:5px;
 }
 
 #header p a{
-	font: bold 48px 'Fredericka the Great','Mr De Haviland',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
-	color: #000;
+    font: bold 48px 'Fredericka the Great','Mr De Haviland',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #000;
 }
 
 /* divider */
 
 #divider {
-	margin-top: 30px;
+    margin-top: 30px;
 }
 
 #card_left {
-	width: 377px;
-	height: 227px;
+    width: 377px;
+    height: 227px;
 }
 
 /* To achieve a rainbow bar */
 
 #color_bar td{
-	height: 4px;
-	width: 1px;
+    height: 4px;
+    width: 1px;
 }
 
 #color_bar td:nth-child(1) {
-	background: #E16B8C repeat fixed;
-	border-radius:3px 0px 0px 0px;
+    background: #E16B8C repeat fixed;
+    border-radius:3px 0px 0px 0px;
 }
 
 #color_bar td:nth-child(2) {
-	background: #66BAB7 repeat fixed;
+    background: #66BAB7 repeat fixed;
 }
 
 #color_bar td:nth-child(3) {
-	background: #E8B647 repeat fixed;
+    background: #E8B647 repeat fixed;
 }
 
 #color_bar td:nth-child(4) {
-	background: #B481BB repeat fixed;
+    background: #B481BB repeat fixed;
 }
 
 #color_bar td:nth-child(5) {
-	background: #81C7D4 repeat fixed;
+    background: #81C7D4 repeat fixed;
 }
 
 #color_bar td:nth-child(6) {
-	background: #D9CD90 repeat fixed;
-	border-radius:0px 3px 0px 0px;
+    background: #D9CD90 repeat fixed;
+    border-radius:0px 3px 0px 0px;
 }
 
 /* Avatar & About */
 
 .xi4oh4o {
-	padding: 6px;
-	border-bottom: 1px solid #E2E2E2;
-	height: 68px;
+    padding: 6px;
+    border-bottom: 1px solid #E2E2E2;
+    height: 68px;
 }
 
 .username {
-	color: #778087;
+    color: #778087;
 }
 
 .hitokoto {
-	color: #999999;
-	font-size: 12px;
+    color: #999999;
+    font-size: 12px;
 }
 
 #about_me {
-	padding:8px;
-	font-size: 12px;
+    padding:8px;
+    font-size: 12px;
 }
 
 /* Photo pinup picture */
 
 #card_right {
-	float:right;
-	width: 377px;
-	height: 227px;
+    float:right;
+    width: 377px;
+    height: 227px;
 }
 
 .tap {
-	background: url(../images/tap.png) no-repeat;
-	width: 101px;
-	height: 28px;
-	opacity: 0.65;
+    background: url(../images/tap.png) no-repeat;
+    width: 101px;
+    height: 28px;
+    opacity: 0.65;
 }
 
 .tap_flower {
-	position: absolute;
-	right: 180px;
-	top: 123px;
+    position: absolute;
+    right: 180px;
+    top: 123px;
 }
 
 .tap_since {
-	position: relative;
-	top: 5px;
-	left: 76px;
+    position: relative;
+    top: 5px;
+    left: 76px;
 }
 
 #office_flower td{
-	text-align: center;
+    text-align: center;
 }
 
 #office_flower td img {
-	margin-left: 26px;
-	margin-top: 18px;
-	border: #FFF 7px solid;
-	box-shadow: 3px 4px 8px 0px rgba(0,0,0,0.20);
+    margin-left: 26px;
+    margin-top: 18px;
+    border: #FFF 7px solid;
+    box-shadow: 3px 4px 8px 0px rgba(0,0,0,0.20);
 }
 
 .old_times small{
-	color: #000;
+    color: #000;
 }
 
 .old_times {
-	padding-top:23px;
-	font-size: 11px;
+    padding-top:23px;
+    font-size: 11px;
 }
 
 /* Links */
 
 #Links {
-	margin-top: 13px;
-	width: 768px;
-	background-color: #FFFFFF;
+    margin-top: 13px;
+    width: 768px;
+    background-color: #FFFFFF;
 }
 
 .box h4 {
-	font: italic 18px 'Fredericka the Great','Mr De Haviland',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
-	color: #888;
-	border-bottom: 1px solid #E2E2E2;
-	padding: 8px;
+    font: italic 18px 'Fredericka the Great','Mr De Haviland',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #888;
+    border-bottom: 1px solid #E2E2E2;
+    padding: 8px;
 }
 
 .nav {
@@ -237,19 +237,19 @@ table {
 }
 
 #Links .nav li{
-	list-style-type: none;
-	color: #888;
-	font-size: 14px;
-	margin-top: 8px;
+    list-style-type: none;
+    color: #888;
+    font-size: 14px;
+    margin-top: 8px;
 }
 
 #Links .nav li a {
-	font: italic 15px Georgia,cursive,Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font: italic 15px Georgia,cursive,Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
 
 #Links table a{
-	color: #888;
-	font-size: 12px;
+    color: #888;
+    font-size: 12px;
 }
 
 #profile a,#Links a {
@@ -262,14 +262,14 @@ table {
 }
 
 #profile a:hover,#Links a:hover {
-	text-shadow: 1px 0px 0px #97DAED;
+    text-shadow: 1px 0px 0px #97DAED;
 }
 
 #a_tips {
-	float: right;
-	font: 9px "Microsoft Yahei",cursive,Georgia,Verdana,Arial;
-	color: #ccc;
-	margin: -18px 6px 0px 0px;
+    float: right;
+    font: 9px "Microsoft Yahei",cursive,Georgia,Verdana,Arial;
+    color: #ccc;
+    margin: -18px 6px 0px 0px;
 }
 
 .column_title {
@@ -284,67 +284,67 @@ table {
 }
 
 #profile {
-	margin-top: 13px;
-	background-color: #ffffff;
-	width: 768px;
-	text-align: left;
-	padding-bottom: 20px;
+    margin-top: 13px;
+    background-color: #ffffff;
+    width: 768px;
+    text-align: left;
+    padding-bottom: 20px;
 }
 
 .profile_font{
-	color: #888888;
-	font-size: 14px;
-	text-shadow: 0px 0px 1px #ccc;
+    color: #888888;
+    font-size: 14px;
+    text-shadow: 0px 0px 1px #ccc;
 }
 
 #profile a{
-	color: #888888;
-	font-size: 12px;
-	text-shadow: 0px 0px 1px #ccc;
+    color: #888888;
+    font-size: 12px;
+    text-shadow: 0px 0px 1px #ccc;
 }
 
 .profile {
-	padding: 8px;
-	/*margin-top: -19px;*/
+    padding: 8px;
+    /*margin-top: -19px;*/
 }
 
 #office_since {
-	float:left;
-	margin: -12px 8px 8px 8px;
+    float:left;
+    margin: -12px 8px 8px 8px;
 }
 
 #office_since img{
-	border: 7px solid #FFFFFF;
+    border: 7px solid #FFFFFF;
     box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 213px;
     height: 160px;
 }
 
 #miku_tan {
-	float:right;
-	position: relative;
-	top: 160px;
-	right: 16px;
+    float:right;
+    position: relative;
+    top: 160px;
+    right: 16px;
 }
 
 #miku_tan img {
-	width: 125px;
-	height: 128px;
+    width: 125px;
+    height: 128px;
 }
 
 /* Footer */
 #footer {
-/*	margin: 20px auto;*/
-/*	width: 758px;
-	height: 19px;*/
-	padding: 5px;
-	text-align: center;
-	border-radius: 3px;
+/*  margin: 20px auto;*/
+/*  width: 758px;
+    height: 19px;*/
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
 }
 
 #footer span {
-	color: #ccc;
-	font: 13px 'giddyup-std',"Microsoft Yahei",cursive,Georgia,Verdana,Arial;
+    color: #ccc;
+    font: 13px 'giddyup-std',"Microsoft Yahei",cursive,Georgia,Verdana,Arial;
 }
 
 /* Mobile ver. 
@@ -352,72 +352,77 @@ table {
 @media screen and (max-width:480px) {
 
 body {
-		width: auto;
+        width: auto;
 }
 
 #container {
-		width: 100%;
+        width: 100%;
 }
 
 .box {
-	border-radius: 0px;
+    border-radius: 0px;
 }
 
 img { max-width: 100%;}
 
 #header {
-	width: 100%;
-	border-radius: 0px;
-	}
+    width: 100%;
+    border-radius: 0px;
+    }
 
 #header p {
-	color: #e2e2e2;
-	font: bold 18px 'Bilbo',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
-	}
+    color: #e2e2e2;
+    font: bold 18px 'Bilbo',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
+    }
 
 #card_left {
-	width:100%;
-	height:auto;
+    width:100%;
+    height:auto;
 }
 
 #card_right {
-	display: none;
-	}
+    display: none;
+    }
 
 #header p:nth-last-child(1) {
-	padding-bottom:5px;
+    padding-bottom:5px;
 }
 
 #header p a{
-	font: 38px 'Fredericka the Great','Mr De Haviland',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
-	color: #000;
-	text-align:center;
+    font: 38px 'Fredericka the Great','Mr De Haviland',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #000;
+    text-align:center;
 }
 
 #Links {
-	width:100%;
+    width:100%;
 }
 
 #miku_tan,#office_since{
-	display: none;
+    display: none;
 }
 
 .tap, .tap_since{
-	display: none;
+    display: none;
 }
 
 #profile {
-	width:100%;
+    width:100%;
 }
 
 .profile {
-	margin-top: 0px;
+    margin-top: 0px;
 }
 
 #footer {
-	width:100%;
-	padding: 5px 0;
-	border-radius: 0px;
+    width:100%;
+    padding: 5px 0;
+    border-radius: 0px;
+}
+
+#footer span {
+    font: 13px 'Alex Brush',cursive,Georgia,"Microsoft Yahei",Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #ccc;
 }
 
 }
