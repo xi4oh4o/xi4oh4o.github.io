@@ -349,7 +349,7 @@ table {
 
 /* Mobile ver. 
 --------------------------------*/
-@media screen and (max-width:480px) {
+@media screen and (max-width:720px) {
 
 body {
         width: auto;
