@@ -1,0 +1,4 @@
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined mixin 'transition'.\A         on line 35 of /media/Storage/Creative/Software/Projects/davehulihan.com/assets/themes/hooligan/_sass/base.scss, in `transition'\A         from line 35 of /media/Storage/Creative/Software/Projects/davehulihan.com/assets/themes/hooligan/_sass/base.scss"; }
