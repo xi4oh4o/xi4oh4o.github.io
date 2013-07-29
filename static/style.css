@@ -8,12 +8,6 @@
     padding: 0;
 }
 
-@media all and (-webkit-min-device-pixel-ratio: 2.0) and (-moz-min-device-pixel-ratio: 2.0) and (-o-min-device-pixel-ratio: 2.0) {
-    body {
-        background: url(../images/bg_graphy@2x.png) whiteSmoke repeat fixed;
-    }
-}
-
 body{
     -webkit-text-size-adjust:none;
     -webkit-font-smoothing:antialiased;
