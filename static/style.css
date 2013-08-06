@@ -267,9 +267,9 @@ table {
 
 #a_tips {
     float: right;
-    font: 9px "Microsoft Yahei",cursive,Georgia,Verdana,Arial;
+    font: 9px 'Alex Brush',cursive,Georgia,Verdana,Arial;
     color: #ccc;
-    margin: -18px 6px 0px 0px;
+    margin: -36px 5px 0px 0px;
 }
 
 .column_title {
