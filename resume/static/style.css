@@ -104,11 +104,7 @@ table {
 
 .about {
     text-align: center;
-}
-
-.about p {
-    margin: 5px 0;
-    font: 25px 'Lato',sans-serif;
+    font: 28px 'Lato';
 }
 
 /* #Skills
@@ -179,18 +175,13 @@ table {
       margin-left: 35px;
   }
 
-  .xi4oh4o td p {
-      font-size: 1.7em;
-  }
-
   /* #About
   ------------------------------- */
   #about {
       padding: 50px 0 50px 0;
   }
 
-  .about p,span {
-      margin: 7px 0;
+  .about {
       font-size: .8em;
   }
 
