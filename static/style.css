@@ -11,7 +11,7 @@
 body{
     -webkit-text-size-adjust:none;
     -webkit-font-smoothing:antialiased;
-    background: url(../images/giftly.png) whiteSmoke repeat fixed;
+    background: url(../images/furley_bg.png) whiteSmoke repeat fixed;
     font-family: "Helvetica Neue","Luxi Sans","DejaVu Sans",Verdana,"Microsoft Yahei",Tahoma,"Hiragino Sans GB",STHeiti !important;
     height:100%;
 }
@@ -265,6 +265,10 @@ table {
     text-shadow: 1px 0px 0px #97DAED;
 }
 
+#profile.box {
+    border-radius: 3px 3px 0 0;
+}
+
 #a_tips {
     float: right;
     font: 9px 'Alex Brush',cursive,Georgia,Verdana,Arial;
@@ -331,12 +335,9 @@ table {
 
 /* Footer */
 #footer {
-/*  margin: 20px auto;*/
-/*  width: 758px;
-    height: 19px;*/
     padding: 5px;
     text-align: center;
-    border-radius: 3px;
+    border-radius: 0px 0px 3px 3px;
 }
 
 #footer span {
