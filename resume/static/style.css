@@ -107,6 +107,10 @@ table {
     font: 28px 'Lato';
 }
 
+.about span {
+    font: bold 16px 'Lato';
+}
+
 /* #Skills
 ------------------------------------*/
 #skills {
@@ -183,6 +187,11 @@ table {
 
   .about {
       font-size: .8em;
+  }
+
+
+  .about span {
+      font: bold .8em 'Lato';
   }
 
   /* #Skills
