@@ -20,10 +20,9 @@ __  _| |__ | |
     <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0" name="viewport" />
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Bilbo|Alex Brush' rel='stylesheet' type='text/css'>
-    <script src="static/main.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Bilbo|Alex%20Brush' rel='stylesheet'>
     <link rel="stylesheet" href="static/style.css">
-    <script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&amp;charset=utf-8"></script>
+    <script src="http://api.hitokoto.us/rand?encode=js&amp;charset=utf-8"></script>
     <title>xi4oh4o (Howe Isamu) - XHs.Me</title>
 </head>
 <body>
@@ -218,38 +217,8 @@ __  _| |__ | |
         <span>Designed by Howe in China &amp; Ideas from V2EX. Thank You</span>
     </div>
     </div>
-<!-- jQuery Function -->
-<script type="text/javascript">
-//Link click effects
-$("div.column").click(function() {
-    var nav = $(this).find("ul.nav");
-    if(nav.css("display") == "none") {
-        nav.slideToggle("normal");
-    }else{
-        nav.slideToggle("normal");
-    }
-})
-
-// Random change the background
-$(document).ready(function() {
-    var randomNumber = Math.floor((Math.random() * 24) + 1);
-    $('body').css('background', 'url(bg/'+ randomNumber +'.jpg) whiteSmoke repeat fixed');
-});
-</script>
-
-<!-- Google Analytics -->
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-28130065-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-<!-- RetinaJS -->
-<script type="text/javascript" src="static/retina.js"></script>
+    <script src="static/change_backgroup_image.js"></script>
+    <script src="static/google_analytic.js"></script>
+    <script type="text/javascript" src="static/retina.js"></script>
 </body>
 </html>
